@@ -1,7 +1,7 @@
 package com.github.jglick.sample
 public class RunWrapperExt {
-    private RunWrapper delegate
-    public RunWrapperExt(RunWrapper delegate) {
+    def delegate
+    public RunWrapperExt(delegate) {
         this.delegate = delegate
     }
     @NonCPS
