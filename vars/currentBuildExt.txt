@@ -1,0 +1,1 @@
+Like currentBuild but adds methods like hasChangeIn(String).
